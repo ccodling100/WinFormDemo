@@ -1,0 +1,8 @@
+{
+    "ImportSettings": {
+        "SourceDatabase": "Server=192.168.0.27;Database=DGSData;User Id=sa;Password=devuser3212!;Persist Security Info=False;Encrypt=False",
+        "DestinationDatabase" : "Server=192.168.0.27;Database=ProMgrData;User Id=sa;Password=devuser3212!;Persist Security Info=False;Encrypt=False",
+        "ImportTable" : "agents",   // possible values: all, agents, tracks, bettypes, tracklimits, profilemap, raceprofiles
+        "ImportBatchSize": 5000
+    }
+}
